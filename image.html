@@ -2,8 +2,27 @@
 <title>search by image | slearch</title>
 <html lang="en">
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <nav>
     <a href="index.html">home</a>
 </nav>
+
+<main>
+    <header class="images-header">
+        <h1 class="logo"><pre class="logo">
+     _                     _
+ ___| | ___  __ _ _ __ ___| |__
+/ __| |/ _ \/ _` | '__/ __| '_ \
+\__ \ |  __/ (_| | | | (__| | | |
+|___/_|\___|\__,_|_|  \___|_| |_|
+    </pre></h1>
+        <h2 class="images-subheader">/by image</h2>
+    </header>
+    <form action="https://www.google.com/search">
+        <input class="rounded-search-input" type="text" name="q">
+        <input hidden="hidden" name="tbm" value="isch">
+        <input class="rounded-search-input" type="submit" value="slearch by image">
+    </form>
+</main>

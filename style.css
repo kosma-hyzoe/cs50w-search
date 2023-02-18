@@ -1,8 +1,17 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: sans-serif;
+	padding: 10px;
+	margin: 10px;
+}
+
 nav {
 	position: absolute;
 	top: 5px;
   	right: 5px;
 }
+
 
 main, form {
 	display: flex; /* make the input field a block-level element */
@@ -11,12 +20,25 @@ main, form {
 	align-items: center;
 }
 
-header {
-	margin-bottom: 20px; /* add margin between header and form */
+.logo {
+	margin-bottom: 0;
 }
 
-input{
+.rounded-search-input {
 	border-radius: 50px; /* make the input field round */
 }
+
+.images-header {
+	display: flex;
+	justify-content: right;
+	align-items: flex-end;
+	margin-left: 132px;
+}
+
+.images-header h2 {
+	margin-left: 10px;
+	color: blue;
+}
+
 
 
