@@ -13,7 +13,7 @@ nav {
 }
 
 
-main, form {
+.centered {
 	display: flex; /* make the input field a block-level element */
 	justify-content: center;
 	flex-direction: column;
