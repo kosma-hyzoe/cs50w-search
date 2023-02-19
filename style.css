@@ -12,7 +12,6 @@ nav {
   	right: 5px;
 }
 
-
 .centered {
 	display: flex; /* make the input field a block-level element */
 	justify-content: center;
@@ -25,7 +24,10 @@ nav {
 }
 
 .rounded-search-input {
-	border-radius: 50px; /* make the input field round */
+	border-radius: 15px;
+	display: block;
+	margin: 7px;
+	padding: 7px;
 }
 
 .images-header {
@@ -39,6 +41,23 @@ nav {
 	margin-left: 10px;
 	color: blue;
 }
+
+#advanced-heading {
+	font-size: 2px;
+	font-weight: bolder;
+	/*position: absolute;*/
+	top: 2px;
+	left: 2px;
+}
+
+#advanced-subheading {}
+
+.search-buttons {
+	display: flex;
+	justify-content: right;
+	align-items: flex-end;
+}
+
 
 
 
