@@ -50,7 +50,11 @@ nav {
 	left: 2px;
 }
 
-#advanced-subheading {}
+#advanced-subheader {
+	margin-top: 50px;
+	margin-left: 25px;
+
+}
 
 .search-buttons {
 	display: flex;
