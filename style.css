@@ -1,67 +1,57 @@
 body {
-	background-color: #fff;
-	color: #000;
-	font-family: sans-serif;
-	padding: 10px;
-	margin: 10px;
-}
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 10px; }
 
 nav {
-	position: absolute;
-	top: 5px;
-  	right: 5px;
-}
+  position: absolute;
+  top: 5px;
+  right: 5px; }
 
 .centered {
-	display: flex; /* make the input field a block-level element */
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-}
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .centered .logo {
+    margin-bottom: 0; }
+  .centered input.rounded-search {
+    border-radius: 15px;
+    display: block;
+    margin: 2px;
+    padding: 7px; }
+  .centered #searchbar {
+    width: 400px; }
+  .centered .search-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end; }
 
-.logo {
-	margin-bottom: 0;
-}
+#subtitle {
+  margin-top: 0; }
 
-.rounded-search-input {
-	border-radius: 15px;
-	display: block;
-	margin: 7px;
-	padding: 7px;
-}
+div.images {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-left: 132px; }
+  div.images h2 {
+    margin-left: 10px;
+    color: blue; }
 
-.images-header {
-	display: flex;
-	justify-content: right;
-	align-items: flex-end;
-	margin-left: 132px;
-}
-
-.images-header h2 {
-	margin-left: 10px;
-	color: blue;
-}
-
-#advanced-heading {
-	font-size: 2px;
-	font-weight: bolder;
-	/*position: absolute;*/
-	top: 2px;
-	left: 2px;
-}
+#advanced h1 {
+  position: absolute;
+  top: 10px;
+  lef: 10px;
+  font-size: 4px;
+  font-weight: bolder; }
+#advanced hr {
+  margin-top: 50px; }
 
 #advanced-subheader {
-	margin-top: 50px;
-	margin-left: 25px;
+  margin-top: 50px;
+  margin-left: 25px; }
 
-}
-
-.search-buttons {
-	display: flex;
-	justify-content: right;
-	align-items: flex-end;
-}
-
-
-
-
+/*# sourceMappingURL=style.css.map */

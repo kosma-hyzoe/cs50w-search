@@ -10,7 +10,6 @@
     <a href="advanced.html">/advanced search</a>
 </nav>
 <main class="centered">
-   <header>
     <h1 class="logo"><pre class="logo">
      _                     _
  ___| | ___  __ _ _ __ ___| |__
@@ -18,13 +17,12 @@
 \__ \ |  __/ (_| | | | (__| | | |
 |___/_|\___|\__,_|_|  \___|_| |_|
     </pre></h1>
-       <h2 class="subtitle">a google search page that sucks less</h2>
-   </header>
+       <h2 id="subtitle">a google search page that sucks less</h2>
     <form class="centered" action="https://google.com/search">
-        <input class="rounded-search-input" type="text" name="q">
+        <input class="rounded-search" id="searchbar" type="text" name="q">
         <div class="search-buttons">
-            <input class="rounded-search-input" type="submit" value="google search">
-            <input class="rounded-search-input" type="submit" value="i'm feeling lucky">
+            <input class="rounded-search" type="submit" value="google search">
+            <input class="rounded-search" type="submit" value="i'm feeling lucky">
         </div>
     </form>
 </main>

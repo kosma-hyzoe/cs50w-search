@@ -10,6 +10,7 @@ nav
   top: 5px
   right: 5px
 
+// centered sections of index.html and image.html
 .centered
   display: flex
   justify-content: center
@@ -19,32 +20,50 @@ nav
   .logo
     margin-bottom: 0
 
-  #images-header
-    display: flex
-    justify-content: right
-    align-items: flex-end
-    margin-left: 132px
-    h2
-      margin-left: 10px
-      color: blue
-
-  .rounded-search-input
+  input.rounded-search
     border-radius: 15px
     display: block
-    margin: 7px
+    margin: 2px
     padding: 7px
+
+  #searchbar
+    width: 400px
 
   .search-buttons
     display: flex
     justify-content: right
     align-items: flex-end
 
+// selectors unique to index.html
+#subtitle
+  margin-top: 0
 
-#advanced-heading
-  font-size: 2px
-  font-weight: bolder
-  top: 2px
-  left: 2px
+// selectors unique to image.html
+div.images
+  display: flex
+  justify-content: right
+  align-items: flex-end
+  margin-left: 132px
+
+  h2
+    margin-left: 10px
+    color: blue
+
+// selectors unique to advanced.html
+#advanced
+
+  h1
+    position: absolute
+    top: 10px
+    lef: 10px
+
+    font-size: 4px
+    font-weight: bolder
+
+
+
+  hr
+    margin-top: 50px
 
 #advanced-subheader
   margin-top: 50px
